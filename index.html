@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheCatsMoo - Discord Bot Developer/Discord Moderator</title>
+    <link rel="shortcut icon" type="image/png" href="pfp.png">
+    <style>
+      /* Add dark theme styling */
+      body {
+        background-color: #1c1c1c;
+        color: #f8f8f8;
+        text-align: center;
+      }
+      /* Add pastel purple/pink accents */
+      .accent {
+        color: #e1bee7;
+      }
+      /* Add techy font */
+      body {
+        font-family: 'Roboto Mono', monospace;
+      }
+      /* Add profile picture as background */
+      header {
+        background-image: url('bkg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 2em;
+        text-align: center;
+      }
+      /* Style links as buttons */
+      nav a, main a {
+        background-color: #e1bee7;
+        color: #1c1c1c;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0.5em;
+      }
+      /* Add hover effect to buttons */
+      nav a:hover, main a:hover {
+        background-color: #f8f8f8;
+        color: #1c1c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="accent">TheCatsMoo</h1>
+      <h2>Discord Bot Developer</h2>
+    </header>
+    <break></break>
+    <p></p>
+    <break></break>
+    <nav>
+      <a href="https://github.com/TheCatsMoo">GitHub</a>
+      <a href="https://twitter.com/TheCatsMoo0001">Twitter</a>
+      <a href="https://discord.com/users/788148692196261960">Discord</a>
+      <a href="https://discord.com/users/788148692196261960">Support Me</a>
+      <a href="mailto:tcm@tcm.gay">Email Me</a>
+      <a href="https://discord.gg/dpPCQe6CwS">My Server 🤫</a>
+    </nav>
+    <main>
+      <h3>About Me</h3>
+      <p>Hey! I am TheCatsMoo! You can call me TCM!</p>
+      <p>They/Them/Their Pronouns, please!</p>
+      <p>Pansexual (-18, single)</p>
+      
+      <p>I am a Discord bot developer and moderator, specializing in creating fun and useful bots for servers of all sizes. I have experience with Python, HTML, CSS, JS, and the discord.py/nextcord.py library.</p>
+      <h3>Some servers:</h3>
+      
+      <ul>
+        <a href="https://narwhal.cool/">The Narwhal <---------------- Moderator</a>
+        <p> </p>
+        <break></break>
+        <p> </p>
+        <a href="https://cinnamon.gifts/">Cinnamon <--------------- Support Staff</a>
+        <p> </p>
+        <break></break>
+        <p> </p>
+        <a href="https://www.dankassistant.xyz/">Dank Assistant <--------- Bot Moderator</a>
+        <p> </p>
+        <a href="https://discord.gg/uqb3qb5sSd">The Void <-------------- Head Moderator</a>
+        <p> </p>
+        <a href="https://discord.gg/SZqX6EmBdE">YouTuber's Hub <-- Head Mod/Trial Admin</a>
+      </ul>
+    
+    </main>
+    <footer>
+      <p>Copyright © 2023 TheCatsMoo</p>
+      <p>Huh, what if you could change the accent color of this website with the below button??? That would be cool!</p>
+    </footer>
+    <script>
+      // Add javascript to make the website fun
+      // Example: Make the background color change when the mouse hovers over it
+      body.onmouseover = function() {
+        body.style.backgroundColor = '#e1bee7';
+      }
+      body.onmouseout = function() {
+        body.style.backgroundColor = '#1c1c1c';
+      }
+    </script>
+    <input type="color" id="accent-picker" onchange="changeAccentColor()">
+    <script>
+      function changeAccentColor() {
+        var accentColor = document.getElementById("accent-picker").value;
+        var accentElements = document.querySelectorAll('.accent');
+        for (var i = 0; i < accentElements.length; i++) {
+          accentElements[i].style.color = accentColor;
+        }
+        var buttons = document.querySelectorAll('nav a, main a');
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].style.backgroundColor = accentColor;
+        }
+      }
+    </script>
+  </body>
+</html>
