@@ -10,6 +10,8 @@ function changeAccentColor() {
   }
 }
 
+document.getElementById("accent-picker").onchange = changeAccentColor;
+
 // Rainbow Cursor
 import { rainbowCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
 
