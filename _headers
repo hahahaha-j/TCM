@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: default-src 'self' https://tcm.gay https://*.tcm.gay; script-src 'self' https://tcm.gay https://*.tcm.gay https://netlify-cdp-loader.netlify.app; style-src 'self' https://tcm.gay https://*.tcm.gay; frame-src 'self' https://tcm.gay https://*.tcm.gay https://app.netlify.com; img-src 'self' https://tcm.gay https://*.tcm.gay;
+  Content-Security-Policy: default-src 'self' https://tcm.gay https://*.tcm.gay; script-src 'self' https://tcm.gay https://*.tcm.gay https://netlify-cdp-loader.netlify.app https://unpkg.com; style-src 'self' https://tcm.gay https://*.tcm.gay; frame-src 'self' https://tcm.gay https://*.tcm.gay https://app.netlify.com; img-src 'self' https://tcm.gay https://*.tcm.gay;
