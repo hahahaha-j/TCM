@@ -1,0 +1,51 @@
+/* Remove obnoxious blank border around the body */
+html, body {
+  margin: 0;
+}
+/* Add dark theme styling */
+body {
+  background-color: #1c1c1c;
+  color: #f8f8f8;
+  text-align: center;
+}
+/* Add pastel purple/pink accents */
+.accent {
+  color: #e1bee7;
+}
+/* Add techy font */
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+/* Add profile picture as background */
+header {
+  background-image: url('bkg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Style links as buttons */
+nav a, main a {
+  background-color: #e1bee7;
+  color: #1c1c1c;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0.5em;
+}
+/* Add hover effect to buttons */
+nav a:hover, main a:hover {
+  background-color: #f8f8f8;
+  color: #1c1c1c;
+}
+/* Add space between links in the ul */
+ul li {
+  margin-bottom: 25px;
+  list-style: none;
+}
+/* Remove UL element padding on certain browser stylesheets (Center the items) */
+ul {
+  padding: 0;
+}
